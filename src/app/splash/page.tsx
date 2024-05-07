@@ -1,15 +1,13 @@
-import Image from 'next/image'
-import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="bg-white flex flex-row justify-center w-full">
-      <div className="bg-white overflow-hidden w-full h-[932px]">
-        <div className="relative w-full h-[932px]">
-          <div className="absolute w-full h-[932px] top-0 left-0 [background:linear-gradient(180deg,rgb(255,255,255)_0%,rgb(0,100,0)_58%)]" />
+    <div className="bg-red-500 p-0 flex flex-row justify-center w-full">
+      <div className="bg-white overflow-hidden w-full p-5 h-screen">
+        <div className="relative w-full h-full">
+          <div className="absolute w-full h-full top-0 left-0 [background:linear-gradient(180deg,rgb(255,255,255)_0%,rgb(0,100,0)_58%)]" />
           {/*<div className="absolute w-[430px] h-[932px] top-0 left-0 [background:linear-gradient(180deg,rgb(255,255,255)_0%,rgb(0,100,0)_58%)]" >*/}
           <img
-            className="absolute w-full h-[932px] top-0 left-0 object-cover"
+            className="absolute w-full h-full top-0 left-0 object-cover"
             alt="Brooke lark"
             src="/img/sp1.png"
           />
