@@ -1,8 +1,8 @@
 
 export default function Home() {
   return (
-    <div className="bg-red-500 p-0 flex flex-row justify-center w-full">
-      <div className="bg-white overflow-hidden w-full p-5 h-screen">
+    <div className="p-0 flex flex-row justify-center w-full">
+      <div className="overflow-hidden w-full h-screen">
         <div className="relative w-full h-full">
           <div className="absolute w-full h-full top-0 left-0 [background:linear-gradient(180deg,rgb(255,255,255)_0%,rgb(0,100,0)_58%)]" />
           {/*<div className="absolute w-[430px] h-[932px] top-0 left-0 [background:linear-gradient(180deg,rgb(255,255,255)_0%,rgb(0,100,0)_58%)]" >*/}
