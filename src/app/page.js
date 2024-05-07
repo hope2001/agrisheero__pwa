@@ -10,7 +10,7 @@ export default function Home() {
             </div>
             <div className="flex justify-start p-2 mt-12">
                 <span className="text-white text-4xl font-bold">
-                Bienvenue sur <br/><span className="text-green-700 " >GLESSINON</span>
+                Bienvenue sur <br/><span className="text-orange-400 " >Geeru.bj</span>
                 </span>
             </div>
         </div>
